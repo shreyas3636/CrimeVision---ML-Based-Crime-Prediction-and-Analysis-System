@@ -1,0 +1,98 @@
+{
+  "Random Forest": {
+    "accuracy": 83.8,
+    "precision": 83.71,
+    "recall": 83.8,
+    "f1_score": 83.71,
+    "confusion_matrix": [
+      [
+        57,
+        0,
+        30
+      ],
+      [
+        0,
+        403,
+        55
+      ],
+      [
+        17,
+        60,
+        378
+      ]
+    ],
+    "feature_importances": {
+      "location": 4.27,
+      "area_type": 5.54,
+      "hour": 36.9,
+      "day_of_week": 5.72,
+      "is_weekend": 7.4,
+      "population_density": 16.38,
+      "previous_crime_records": 23.79
+    }
+  },
+  "XGBoost": {
+    "accuracy": 84.0,
+    "precision": 83.93,
+    "recall": 84.0,
+    "f1_score": 83.95,
+    "confusion_matrix": [
+      [
+        58,
+        0,
+        29
+      ],
+      [
+        0,
+        403,
+        55
+      ],
+      [
+        21,
+        55,
+        379
+      ]
+    ],
+    "feature_importances": {
+      "location": 3.95,
+      "area_type": 8.78,
+      "hour": 27.25,
+      "day_of_week": 3.1,
+      "is_weekend": 32.43,
+      "population_density": 5.8,
+      "previous_crime_records": 18.69
+    }
+  },
+  "Decision Tree": {
+    "accuracy": 81.8,
+    "precision": 81.71,
+    "recall": 81.8,
+    "f1_score": 81.74,
+    "confusion_matrix": [
+      [
+        59,
+        0,
+        28
+      ],
+      [
+        0,
+        399,
+        59
+      ],
+      [
+        24,
+        71,
+        360
+      ]
+    ],
+    "feature_importances": {
+      "location": 1.19,
+      "area_type": 1.62,
+      "hour": 37.47,
+      "day_of_week": 0.65,
+      "is_weekend": 16.37,
+      "population_density": 12.88,
+      "previous_crime_records": 29.82
+    }
+  }
+}

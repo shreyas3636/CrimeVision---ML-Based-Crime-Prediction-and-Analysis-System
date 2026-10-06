@@ -1,0 +1,43 @@
+{
+  "location": {
+    "CU Campus & Student Zone": 0,
+    "Gillco Valley & Sector 127": 1,
+    "Greater Mohali Highway Junction": 2,
+    "Kharar Bus Stand & Market": 3,
+    "Kharar Industrial Focal Point": 4,
+    "Kharar Main Market & Night Hub": 5,
+    "Kharar-Ropar Flyover Corridor": 6,
+    "Landran Road Commercial Belt": 7,
+    "Model Town Kharar": 8,
+    "Swaraj Nagar & Old City": 9
+  },
+  "area_type": {
+    "Commercial": 0,
+    "Industrial": 1,
+    "Nightlife": 2,
+    "Residential": 3,
+    "Transit Hub": 4
+  },
+  "day_of_week": {
+    "Friday": 0,
+    "Monday": 1,
+    "Saturday": 2,
+    "Sunday": 3,
+    "Thursday": 4,
+    "Tuesday": 5,
+    "Wednesday": 6
+  },
+  "risk_level_classes": [
+    "High",
+    "Low",
+    "Medium"
+  ],
+  "crime_type_classes": [
+    "Brawl & Group Assault",
+    "Cyber & Online Fraud",
+    "Highway Robbery & Extortion",
+    "House Trespass & Burglary",
+    "Snatching & Mobile Theft",
+    "Vehicle Theft (Auto-Lifting)"
+  ]
+}
